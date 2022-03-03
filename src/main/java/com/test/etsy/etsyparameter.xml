@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Etsy Website">
+    <test name="Etsy test">
+        <parameter name="input" value="iphone 13"></parameter>
+        <classes>
+            <class name="com.test.etsy.Tests.EtsyMainPageTest"></class>
+        </classes>
+    </test>
+
+</suite>

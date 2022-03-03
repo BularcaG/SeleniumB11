@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Audi]">
+  <test thread-count="5" name="AudiWebsite(failed)">
+    <classes>
+      <class name="com.test.Homework.Tests.AudiSQ5PageTest">
+        <methods>
+          <include name="NameAndYearValidation"/>
+          <include name="setup"/>
+          <include name="initializePages"/>
+        </methods>
+      </class> <!-- com.test.Homework.Tests.AudiSQ5PageTest -->
+    </classes>
+  </test> <!-- AudiWebsite(failed) -->
+</suite> <!-- Failed suite [Audi] -->

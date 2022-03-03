@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Audi">
+    <test name="AudiWebsite">
+        <classes>
+            <class name="com.test.Homework.Tests.AudiSQ5PageTest"></class>
+        </classes>
+    </test>
+</suite>
